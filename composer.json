@@ -1,0 +1,37 @@
+{
+	"name": "php_modules/gogue-component-base",
+	"version": "1.0",
+	"description": "gogue-component-base",
+  "type": "library",
+	"license": "MIT",
+	"keywords": [
+		"gogue",
+		"component",
+    "gogue-component",
+    "gogue-component-base"
+	],
+	"autoload": {
+		"psr-4": { "Sammy\\": "Sammy/" },
+		"psr-0": { "Sammy\\": "Sammy/" },
+		"classmap": [ "Sammy/" ],
+		"files": [ "autoload.php" ]
+	},
+  "homepage": "https://github.com/samils/gogue-component-base",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/samils/gogue-component-base/issues",
+    "wiki": "https://github.com/samils/gogue-component-base/wiki"
+  },
+	"require": {
+		"php": ">=5.6.20"
+	}
+}
